@@ -1,0 +1,179 @@
+/* Paleta de colores: 	http://paletton.com/#uid=12V0u0kaFwc2SSy6pI0fDr7ljlq
+ * 
+ * 
+ * #287447
+ * #4C966A
+ * #D0EDDC
+ * 
+ * Oracle Reference: 	https://docs.oracle.com/javafx/2/api/javafx/scene/doc-files/cssref.html
+ * W3 Reference: 		https://www.w3.org/TR/CSS21/
+ * 
+ * http://blog.randahl.dk/2012/12/javafx-designing-for-multiple-screen.html
+ */
+ 
+*{
+ 	-fx-font-family: "Roboto";
+ 	-fx-alignment: center;
+ }
+ 
+.TextFieldNombreJugador{
+	-fx-background-color: transparent;
+	-fx-alignment: center;
+	-fx-padding:5.0;
+	-fx-pref-width:80.0;
+	-fx-font-size: 16.0;
+	-fx-text-fill: white;
+}
+ 
+.VistaInicial{
+	-fx-background-color: #3F6E4D;
+	-fx-alignment: center;
+	-fx-pref-width: 1366.0;
+	-fx-pref-height: 768.0;
+	-fx-spacing: 80.0;
+
+}
+
+.Boton{
+	-fx-pref-width: 250.0;
+	-fx-pref-height: 20.0;
+	-fx-padding: 8.0 15.0 15.0 15.0;
+    -fx-background-insets: 0.0,0.0 0.0 5.0 0.0, 0.0 0.0 6.0 0.0, 0.0 0.0 7.0 0.0;
+    -fx-background-radius: 8.0;
+    -fx-background-color: 
+        linear-gradient(from 0.0% 93.0% to 0.0% 100.0%, #a34313 0.0%, #903b12 100.0%),
+        #9d4024,
+        #d86e3a,
+        radial-gradient(center 50.0% 50.0%, radius 100.0%, #d86e3a, #c54e2c);
+    -fx-effect: dropshadow( gaussian , rgba(0.0,0.0,0.0,0.75) , 4.0,0.0,0.0,1.0 );
+
+    -fx-font-size: 24.0;
+    -fx-cursor:default;
+}
+
+.Boton:hover{
+    -fx-background-color: 
+        linear-gradient(from 0.0% 93.0% to 0.0% 100.0%, #b45424 0.0%, #a14c23 100.0%),
+        #9d4024,
+        #d86e3a,
+        radial-gradient(center 50.0% 50.0%, radius 100.0%, #e97f4b, #d65f3d);
+    -fx-cursor:hand;
+}
+
+.VistaConfiguracionPartida{
+	-fx-background-color: #3F6E4D;
+	-fx-alignment: center;
+	-fx-pref-width: 1366.0;
+	-fx-pref-height: 768.0;
+	-fx-spacing: 30.0;
+}
+
+.VistaPartida{
+	-fx-background-color: transparent;
+	-fx-alignment: center;
+	-fx-pref-width: 1366.0;
+	-fx-pref-height: 768.0;
+}
+
+.VistaTablero{
+	-fx-background-color: lightgray;
+	-fx-alignment: center;
+	-fx-pref-width: 768.0;
+	-fx-pref-height: 768.0;
+	-fx-border-color:transparent;
+	-fx-border-width:1;
+}
+
+.VistaRonda{
+	-fx-background-color: white;
+	-fx-alignment: center;
+	-fx-pref-width: 598.0;	
+	-fx-pref-height: 201.0;
+}
+
+.VistaJugador{
+	-fx-text-fill: white;
+	-fx-font-size:16.0;
+	-fx-border-color:transparent;
+	-fx-border-width: 1.0px;
+	-fx-pref-width: 200.0;
+	-fx-pref-height: 200.0;
+}
+
+.VistaTurnoTitulo{
+	-fx-alignment: center;
+	-fx-pref-width: 598.0;	
+	-fx-pref-height: 91.0;
+	-fx-font-size:36.0;	
+	-fx-text-fill: white;
+	
+}
+
+.VistaTurnoDinamica{
+	-fx-alignment: center;
+	-fx-pref-width: 598.0;	
+	-fx-pref-height: 476.0;
+	-fx-spacing: 30.0;
+}
+
+.VistaCasillero{
+	-fx-border-style:none;
+	-fx-pref-width: 128.0;	
+	-fx-pref-height: 128.0;
+	-fx-background-color:rgb(238.0,238.0,236.0);
+}
+
+.VistaCasilleroContenedor{
+	-fx-border-style:solid;
+	-fx-border-color:transparent;
+	-fx-border-width:3px;
+	-fx-pref-width: 122.0;	
+	-fx-pref-height: 86.0;
+	-fx-background-color:rgb(238.0,238.0,236.0);
+
+}
+
+.VistaCasilleroNombre{
+	-fx-border-style:none;
+	-fx-alignment: center;
+	-fx-pref-width: 128.0;	
+	-fx-pref-height: 42.0;
+	-fx-text-alignment:center;
+	
+}
+.VistaCasilleroDetalle{
+	-fx-background-color:transparent;
+	-fx-border-style:none;
+	-fx-alignment: center;
+	-fx-pref-width: 122.0;	
+	-fx-pref-height: 42.0;
+}
+
+.VistaCasilleroJugadores{
+	-fx-background-color:transparent;
+	-fx-border-style:none;
+	-fx-alignment: center;
+	-fx-pref-width: 122.0;	
+	-fx-pref-height: 42.0;
+	-fx-spacing: 5.0;
+	
+}
+
+.VistaCasilleroJugador{
+	-fx-background-color:transparent;
+	-fx-border-color:transparent;
+	-fx-alignment: center;
+	-fx-pref-height: 42.0;
+}
+
+.VistaTableroCentro{
+	-fx-background-color: white;
+		-fx-pref-width: 512.0;	
+	-fx-pref-height: 512.0;
+}
+
+.LabelTurnoDinamica{
+	-fx-font-size:24.0;	
+	-fx-text-fill: white;
+}
+
